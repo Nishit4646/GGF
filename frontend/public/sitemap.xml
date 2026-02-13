@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml"
+    xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+    xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"
+>
+    <url><loc>https://hilearnacademy.com/</loc><changefreq>daily</changefreq><priority>1.0</priority></url>
+    <url><loc>https://hilearnacademy.com/about-us</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+    
+    <url><loc>https://hilearnacademy.com/courses</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>
+    <url><loc>https://hilearnacademy.com/courses/data-analytics</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+    <url><loc>https://hilearnacademy.com/courses/data-science</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+    <url><loc>https://hilearnacademy.com/courses/digital-marketing</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+    <url><loc>https://hilearnacademy.com/courses/agentic-ai</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+    
+    <url><loc>https://hilearnacademy.com/contact</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+    
+    <url><loc>https://hilearnacademy.com/blogs</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+    <url><loc>https://hilearnacademy.com/blogs/top-10-excel-functions-for-data-analysts</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+    <url><loc>https://hilearnacademy.com/blogs/powerbi-vs-tableau-which-should-you-learn-in-2025</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+    <url><loc>https://hilearnacademy.com/blogs/data-analyst-salary-in-india-2025</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+    <url><loc>https://hilearnacademy.com/blogs/complete-roadmap-to-becoming-data-scientist-in-2025</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+    <url><loc>https://hilearnacademy.com/blogs/machine-learning-project-ideas-2025</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+    <url><loc>https://hilearnacademy.com/blogs/data-scientist-salary-2025</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+    <url><loc>https://hilearnacademy.com/blogs/what-is-agentic-ai-2025</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+    <url><loc>https://hilearnacademy.com/blogs/building-first-ai-agent-langchain</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+    <url><loc>https://hilearnacademy.com/blogs/chatgpt-content-marketing-prompts</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+    
+    <url><loc>https://hilearnacademy.com/resources</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+    <url><loc>https://hilearnacademy.com/placement-assistance</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+   
+    <url><loc>https://hilearnacademy.com/privacy-policy</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+    <url><loc>https://hilearnacademy.com/terms-conditions</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+    <url><loc>https://hilearnacademy.com/refund-policy</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+
+    <url><loc>https://hilearnacademy.com/book-demo-lecture</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+</urlset>
