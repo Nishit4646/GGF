@@ -6,13 +6,13 @@ import Globe from 'react-globe.gl';
 import { MapPin, Award, X, ZoomIn, ZoomOut, Info, RotateCcw } from 'lucide-react';
 
 const talentedGujaratis = [
-  { 
-    id: 1, 
-    name: 'Mahatma Gandhi', 
-    country: 'India', 
-    city: 'Porbandar, Gujarat', 
-    lat: 21.6417, 
-    lng: 69.6293, 
+  {
+    id: 1,
+    name: 'Mahatma Gandhi',
+    country: 'India',
+    city: 'Porbandar, Gujarat',
+    lat: 21.6417,
+    lng: 69.6293,
     title: 'Father of the Nation',
     image: 'https://res.cloudinary.com/dkplc2mbj/image/upload/v1612161358/mahatma_gandhi_9a7bf75be9.jpg',
     description: 'Mohandas Karamchand Gandhi, born in Porbandar, Gujarat, led India to independence through non-violent civil disobedience.',
@@ -22,13 +22,13 @@ const talentedGujaratis = [
     contribution: 'Freedom & Peace',
     color: '#ef4444'
   },
-  { 
-    id: 2, 
-    name: 'Sardar Vallabhbhai Patel', 
-    country: 'India', 
-    city: 'Nadiad, Gujarat', 
-    lat: 22.6929, 
-    lng: 72.8642, 
+  {
+    id: 2,
+    name: 'Sardar Vallabhbhai Patel',
+    country: 'India',
+    city: 'Nadiad, Gujarat',
+    lat: 22.6929,
+    lng: 72.8642,
     title: 'Iron Man of India',
     image: 'https://assets.thehansindia.com/h-upload/2025/10/31/1597700-vallabhbhai.webp',
     description: 'First Deputy Prime Minister and Home Minister of India. United 562 princely states to form the Republic of India.',
@@ -38,13 +38,13 @@ const talentedGujaratis = [
     contribution: 'Nation Building',
     color: '#f59e0b'
   },
-  { 
-    id: 3, 
-    name: 'Dhirubhai Ambani', 
-    country: 'India', 
-    city: 'Chorwad, Gujarat', 
-    lat: 21.0833, 
-    lng: 70.2333, 
+  {
+    id: 3,
+    name: 'Dhirubhai Ambani',
+    country: 'India',
+    city: 'Chorwad, Gujarat',
+    lat: 21.0833,
+    lng: 70.2333,
     title: 'Business Tycoon',
     image: 'https://cf-img-a-in.tosshub.com/sites/visualstory/stories/2022_12/story_16378/assets/4.jpeg?time=1672218739',
     description: 'Founded Reliance Industries, transforming it into India\'s largest private sector company.',
@@ -54,13 +54,13 @@ const talentedGujaratis = [
     contribution: 'Industrial Revolution',
     color: '#10b981'
   },
-  { 
-    id: 4, 
-    name: 'Narendra Modi', 
-    country: 'India', 
-    city: 'Vadnagar, Gujarat', 
-    lat: 23.7861, 
-    lng: 72.6394, 
+  {
+    id: 4,
+    name: 'Narendra Modi',
+    country: 'India',
+    city: 'Vadnagar, Gujarat',
+    lat: 23.7861,
+    lng: 72.6394,
     title: 'Prime Minister of India',
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGrKlBcAbAJZKueIujU8OZCyoII0Rzpwx_RuLPHHKwRM9hdnW2QkcEUh38nD3oXaSZUUic9hi83dOfGEUM4G79nKIJTWUtAWrYodldDZ4&s=10',
     description: 'Current Prime Minister of India since 2014. Leading India\'s digital transformation.',
@@ -70,13 +70,13 @@ const talentedGujaratis = [
     contribution: 'National Development',
     color: '#3b82f6'
   },
-  { 
-    id: 5, 
-    name: 'Vikram Sarabhai', 
-    country: 'India', 
-    city: 'Ahmedabad, Gujarat', 
-    lat: 23.0225, 
-    lng: 72.5714, 
+  {
+    id: 5,
+    name: 'Vikram Sarabhai',
+    country: 'India',
+    city: 'Ahmedabad, Gujarat',
+    lat: 23.0225,
+    lng: 72.5714,
     title: 'Father of Indian Space Program',
     image: 'https://www.nrsc.gov.in/nrscnew/assets/img/leaders/VikramSarabhai_PNG.png',
     description: 'Scientist and innovator who initiated space research in India. Founded ISRO.',
@@ -86,13 +86,13 @@ const talentedGujaratis = [
     contribution: 'Space Research',
     color: '#8b5cf6'
   },
-  { 
-    id: 6, 
-    name: 'Karsanbhai Patel', 
-    country: 'India', 
-    city: 'Ahmedabad, Gujarat', 
-    lat: 23.0225, 
-    lng: 72.5714, 
+  {
+    id: 6,
+    name: 'Karsanbhai Patel',
+    country: 'India',
+    city: 'Ahmedabad, Gujarat',
+    lat: 23.0225,
+    lng: 72.5714,
     title: 'Nirma Founder',
     image: 'https://nirmawebsite.s3.ap-south-1.amazonaws.com/wp-content/uploads/2025/03/President-Karsan-Patel.jpg',
     description: 'Founded Nirma, one of India\'s largest detergent brands. Built a massive FMCG empire.',
@@ -102,13 +102,13 @@ const talentedGujaratis = [
     contribution: 'Business Empire',
     color: '#06b6d4'
   },
-  { 
-    id: 7, 
-    name: 'Pritam Lakhani', 
-    country: 'USA', 
-    city: 'New Jersey, USA', 
-    lat: 40.0583, 
-    lng: -74.4057, 
+  {
+    id: 7,
+    name: 'Pritam Lakhani',
+    country: 'USA',
+    city: 'New Jersey, USA',
+    lat: 40.0583,
+    lng: -74.4057,
     title: 'Tech Entrepreneur',
     image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200',
     description: 'Technology entrepreneur based in New Jersey. Leading innovations in software development.',
@@ -118,13 +118,13 @@ const talentedGujaratis = [
     contribution: 'Tech Innovation',
     color: '#ec4899'
   },
-  { 
-    id: 8, 
-    name: 'Jay Gajjar', 
-    country: 'Canada', 
-    city: 'Toronto, Canada', 
-    lat: 43.6532, 
-    lng: -79.3832, 
+  {
+    id: 8,
+    name: 'Jay Gajjar',
+    country: 'Canada',
+    city: 'Toronto, Canada',
+    lat: 43.6532,
+    lng: -79.3832,
     title: 'Cultural Ambassador',
     image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200',
     description: 'Gujarati cultural ambassador in Canada, organizing events and festivals.',
@@ -152,7 +152,7 @@ const InteractiveMap = () => {
       // Auto-rotate
       globeEl.current.controls().autoRotate = false;
       globeEl.current.controls().autoRotateSpeed = 0.5;
-      
+
       // Set initial view to India
       globeEl.current.pointOfView({ lat: 20, lng: 78, altitude: 2 }, 1000);
     }
@@ -213,7 +213,7 @@ const InteractiveMap = () => {
                 bumpImageUrl="//unpkg.com/three-globe/example/img/earth-topology.png"
                 // backgroundImageUrl="//unpkg.com/three-globe/example/img/night-sky.png"
                 backgroundImageUrl={null}
-                
+
                 // Use HTML elements with images
                 htmlElementsData={markerData}
                 htmlElement={d => {
@@ -259,10 +259,10 @@ const InteractiveMap = () => {
                       </div>
                     </div>
                   `;
-                  
+
                   el.style.cursor = 'pointer';
                   el.style.pointerEvents = 'auto';
-                  
+
                   // Add hover effect
                   el.onmouseenter = () => {
                     el.firstChild.style.transform = 'scale(1.2)';
@@ -272,20 +272,20 @@ const InteractiveMap = () => {
                     el.firstChild.style.transform = 'scale(1)';
                     el.firstChild.style.borderWidth = '3px';
                   };
-                  
+
                   el.onclick = () => handleMarkerClick(d);
-                  
+
                   return el;
                 }}
                 htmlAltitude={0.01}
-                
+
                 // Atmosphere
                 atmosphereColor="lightskyblue"
                 atmosphereAltitude={0.15}
-                
+
                 width={800}
                 height={500}
-                
+
                 // Enable pointer events
                 enablePointerInteraction={true}
               />
@@ -320,7 +320,7 @@ const InteractiveMap = () => {
               <div className="space-y-4">
                 <div className="flex items-start justify-between">
                   <h3 className="text-xl font-bold text-white">Profile Details</h3>
-                  <button 
+                  <button
                     onClick={() => setSelectedPerson(null)}
                     className="p-1 hover:bg-slate-700 rounded-full transition-colors"
                   >
@@ -329,8 +329,8 @@ const InteractiveMap = () => {
                 </div>
 
                 <div className="relative">
-                  <img 
-                    src={selectedPerson.image} 
+                  <img
+                    src={selectedPerson.image}
                     alt={selectedPerson.name}
                     className="w-full h-56 object-cover rounded-xl border-2"
                     style={{ borderColor: selectedPerson.color }}
@@ -340,7 +340,7 @@ const InteractiveMap = () => {
                     <p className="text-orange-400 font-medium text-sm">{selectedPerson.title}</p>
                   </div>
                 </div>
-                
+
                 <div className="grid grid-cols-2 gap-3 text-sm">
                   <div className="bg-slate-700/50 p-3 rounded-lg">
                     <div className="text-xs text-gray-400 mb-1">Location</div>
@@ -367,7 +367,7 @@ const InteractiveMap = () => {
                   <ul className="space-y-2">
                     {selectedPerson.achievements.map((achievement, idx) => (
                       <li key={idx} className="flex items-start bg-slate-700/30 p-3 rounded-lg border border-slate-600">
-                        <div 
+                        <div
                           className="w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0 mr-3 text-white text-xs font-bold"
                           style={{ background: selectedPerson.color }}
                         >
@@ -401,11 +401,23 @@ const InteractiveMap = () => {
                 onClick={() => handleMarkerClick(person)}
                 className="flex items-center space-x-3 p-4 rounded-lg border border-slate-700 hover:border-orange-500 bg-slate-700/30 hover:bg-slate-700/50 transition-all text-left group"
               >
-                <div 
+                <div
                   className="w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0 border-2 border-white group-hover:scale-110 transition-transform"
                   style={{ background: person.color }}
                 >
-                  <span className="text-white font-bold text-sm">{person.name.split(' ')[0][0]}</span>
+
+                  {person.image ? (
+                    <img
+                      src={person.image}
+                      alt={person.name}
+                      className="w-full h-full object-cover"
+                      onError={(e) => { e.target.style.display = 'none'; }}
+                    />
+                  ) : (
+                    <span className="text-white font-bold text-sm">
+                      {person.name.split(' ')[0][0]}
+                    </span>
+                  )}
                 </div>
                 <div className="flex-1 min-w-0">
                   <div className="font-semibold text-white text-sm truncate">{person.name}</div>

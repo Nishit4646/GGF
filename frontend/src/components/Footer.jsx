@@ -1,5 +1,6 @@
 // src/components/Footer.jsx
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Globe, Facebook, Twitter, Instagram, Linkedin, Youtube, Mail, Phone, MapPinned, ExternalLink } from 'lucide-react';
 
 const Footer = () => {
@@ -9,6 +10,14 @@ const Footer = () => {
     { icon: Instagram, label: 'Instagram', url: 'https://instagram.com' },
     { icon: Linkedin, label: 'LinkedIn', url: 'https://linkedin.com' },
     { icon: Youtube, label: 'YouTube', url: 'https://youtube.com' }
+  ];
+  const quickLinks = [
+    { name: 'Home', path: '/' },
+    { name: 'About Us', path: '/about' },
+    { name: 'NRG Awards', path: '/awards' },
+    { name: 'Events', path: '/meet' },
+    { name: 'Blog', path: '/blog' },
+    { name: 'Contact', path: '/contact' }
   ];
 
   const locations = [
@@ -62,12 +71,12 @@ const Footer = () => {
           <div>
             <h4 className="text-white font-semibold mb-4 text-lg">Quick Links</h4>
             <ul className="space-y-2 text-sm">
-              {['Home', 'About Us', 'NRG Awards', 'Events', 'Blog', 'Contact'].map((link, idx) => (
+              {quickLinks.map((link, idx)=> (
                 <li key={idx}>
-                  <a href="#" className="hover:text-orange-500 transition-colors flex items-center group">
+                  <Link to={link.path} className="hover:text-orange-500 transition-colors flex items-center group">
                     <span className="w-0 group-hover:w-2 h-0.5 bg-orange-500 transition-all duration-300 mr-2"></span>
-                    {link}
-                  </a>
+                    {link.name}
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -90,7 +99,7 @@ const Footer = () => {
               </li>
               <li className="flex items-start space-x-2 group">
                 <MapPinned className="w-4 h-4 text-orange-500 mt-0.5 flex-shrink-0 group-hover:scale-110 transition-transform" />
-                <p className="text-gray-400">302, Yash Aqua, Navrangpura,<br />Ahmedabad 380009, Gujarat, India</p>
+                <p className="hover:text-orange-400 transition-colors">302, Yash Aqua, Navrangpura,<br />Ahmedabad 380009, Gujarat, India</p>
               </li>
             </ul>
           </div>
